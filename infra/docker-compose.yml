@@ -4,7 +4,7 @@ services:
     build:
       context: ../
       dockerfile: ./infra/Dockerfile
-    container_name: 'boilerplate-apache2'
+    container_name: 'apache2'
     ports:
       - 80:80
       - 443:443
